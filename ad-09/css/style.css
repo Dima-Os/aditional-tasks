@@ -1,0 +1,40 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit
+}
+
+.box {
+    padding: 50px;
+    font-size: 30px;
+    width: max-content;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content {
+    background-color: #f6f654;
+}
+
+.sidebar {
+    background-color: aquamarine;
+}
+
+.grid-item:nth-of-type(odd) {
+    background-color: coral;
+}
+
+.grid-item:nth-of-type(even) {
+    background-color: gray;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+
+}
